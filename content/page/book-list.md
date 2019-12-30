@@ -16,20 +16,20 @@ I am an avid reader and below compiles the books I read or am reading...
 
 ### 2019
 
-1. [The gardener and the carpenter]({{< ref "/post/book/gardener-and-carpenter.md">}})
-2. [Everything I never told  you]({{< ref "/post/book/everything-i-never-told-you.md">}})
-3. [So you want to talk about race]({{< ref "/post/book/talk-about-race.md">}})
-4. [Peak]({{< ref "/post/book/peak.md">}})
-5. [Crush it!]({{< ref "/post/book/crush-it.md">}})
+1. [The gardener and the carpenter]
+2. [Everything I never told  you]
+3. [So you want to talk about race]
+4. [Peak]
+5. [Crush it!]
 6. Quiet power: the secret strengths of introverts
 7. The simple path to wealth
 8. Bad blood: secrets and lies in a silicon valley startup
 9. Army of none: autonomous weapons and the future of war
 10. The subtle art of not giving a f*ck: a counterintuitive approach to living a good life
 11. Me before you
-12. [The little prince]({{< ref "/post/book/read-little-prince.md">}})
+12. [The little prince]
 13. Becoming
-14. [Deep work]({{< ref "/post/book/read-deep-work.md">}})
+14. [Deep work]
 15. The one thing
 16. The kite runner
 17. The shallows: what the internet is doing to our brains
@@ -42,7 +42,7 @@ I am an avid reader and below compiles the books I read or am reading...
 24. Anonymous
 25. Limitless mind: learn, lead and live without barriers
 26. No Hard Feelings: The Secret Power of Embracing Emotions at Work *by Liz Fosslien and West Duffy, Mollie*
-27. [All the Wrong Moves]({{< ref "../post/book/all-the-wrong-moves.md" >}}): A Memoir About Chess, Love, and Ruining Everything *by Sasha Chapin*
+27. [All the Wrong Moves]: A Memoir About Chess, Love, and Ruining Everything *by Sasha Chapin*
 28. Now is the way: an unconventional approach to modern mindfulness
 29. Some of my friends are ...: the daunting challenges and untapped benefits of cross-racial friendships
 30. Principles
