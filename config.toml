@@ -1,5 +1,5 @@
 baseurl = "https://kunlei.github.io/blog-cn"
-title = "O.R. in Action"
+title = "运筹优化"
 languageCode = "zh"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
@@ -36,7 +36,13 @@ publishDir = "docs"
   github = "kunlei"
   # twitter = "realjenius"
   linkedin = "kunlei-lian-ba55a73b"
-  website = "https://kunlei.githu.io"
+  website = "https://kunlei.github.io"
+
+[[menu.main]]
+  identifier = "blog-en"
+  name = "English"
+  url = "https://kunlei.github.io"
+  weight = 0
 
 [[menu.main]]
   identifier = "blog"
