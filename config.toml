@@ -1,0 +1,100 @@
+baseurl = "https://kunlei.github.io/blog-cn"
+title = "O.R. in Action"
+languageCode = "zh"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsOptions = "linenos=inline"
+DefaultContentLanguage = "en"
+disqusShortname = "orinaction"
+googleAnalytics = "UA-124241468-1"
+enableEmoji = true
+mathjax = true
+
+[permalinks]
+  post = "/:year/:month/:day/:filename/"
+
+[Params]
+  subtitle = ""
+  logo = "img/logo.png"
+  favicon = "img/logo.png"
+  dateFormat = "January 2, 2006"
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+
+[Author]
+  name = "Kunlei Lian"
+  email = "kunlei1987@gmail.com"
+  # facebook = "realjenius"
+  github = "kunlei"
+  # twitter = "realjenius"
+  linkedin = "kunlei-lian-ba55a73b"
+  website = "https://kunlei.githu.io"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "post"
+  weight = 1
+
+[[menu.main]]
+  parent="blog"
+  name="Reading"
+  url = "/page/book-list"
+  weight = 1
+
+# coding
+[[menu.main]]
+  identifier = "coding"
+  name = "Coding"
+  weight = 3
+
+[[menu.main]]
+  parent = "coding"
+  name = "Java"
+  url = "/page/java-index"
+  weight = 1
+
+[[menu.main]]
+  parent = "coding"
+  name = "C++"
+  url = "/page/cpp-index"
+  weight = 2
+
+[[menu.main]]
+  parent = "coding"
+  name = "CPLEX"
+  url = "/page/cplex-index"
+  weight = 3
+
+
+# about
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  weight = 9
+
+[[menu.main]]
+  parent = "about"
+  name = "Resume"
+  url = "/pagedown-resume"
+  weight = 1
+
+[[menu.main]]
+  parent = "about"
+  name = "About"
+  url = "/page/about"
+  weight = 2
+
+
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
+  weight = 10
