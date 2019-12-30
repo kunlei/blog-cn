@@ -102,6 +102,6 @@ publishDir = "docs"
 
 
 [[menu.main]]
-  name = "Tags"
+  name = "标签"
   url = "tags"
   weight = 10

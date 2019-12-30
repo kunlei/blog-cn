@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>A Little Something for 2019 - 运筹优化</title>
+  <meta name="description" content="It&rsquo;s hard to believe that we&rsquo;re reaching the end of 2019 and marching into the last of the first twenty years in the 21st century. The past twenty years witnessed probably the most dramatic changes in my life, although life will surely surprise me more in the future when I least expect it. Looking back in time, the twenty years can be roughly divided into four segments. The first was mainly high school years when I got the opportunity to study at one of two best high schools in our small county, without knowing at that time that it was the first stride in stepping into an adventurous future far far away from where I grew up.">
+  <meta name="author" content="Kunlei Lian"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "运筹优化",
+    
+    "url": "https:\/\/kunlei.github.io\/blog-cn"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/kunlei.github.io\/blog-cn"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/kunlei.github.io\/blog-cn",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/kunlei.github.io\/blog-cn\/2019\/12\/24\/review-2019\/",
+          "name": "A little something for 2019"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Kunlei Lian"
+  },
+  "headline": "A Little Something for 2019",
+  "description" : "It\x26rsquo;s hard to believe that we\x26rsquo;re reaching the end of 2019 and marching into the last of the first twenty years in the 21st century. The past twenty years witnessed probably the most dramatic changes in my life, although life will surely surprise me more in the future when I least expect it. Looking back in time, the twenty years can be roughly divided into four segments. The first was mainly high school years when I got the opportunity to study at one of two best high schools in our small county, without knowing at that time that it was the first stride in stepping into an adventurous future far far away from where I grew up.",
+  "inLanguage" : "en",
+  "wordCount":  1029 ,
+  "datePublished" : "2019-12-24T00:00:00",
+  "dateModified" : "2019-12-24T00:00:00",
+  "image" : "https:\/\/kunlei.github.io\/blog-cn\/img\/logo.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/kunlei.github.io\/blog-cn\/2019\/12\/24\/review-2019\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/kunlei.github.io\/blog-cn",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/kunlei.github.io\/blog-cn\/img\/logo.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="A Little Something for 2019" />
+<meta property="og:description" content="It&rsquo;s hard to believe that we&rsquo;re reaching the end of 2019 and marching into the last of the first twenty years in the 21st century. The past twenty years witnessed probably the most dramatic changes in my life, although life will surely surprise me more in the future when I least expect it. Looking back in time, the twenty years can be roughly divided into four segments. The first was mainly high school years when I got the opportunity to study at one of two best high schools in our small county, without knowing at that time that it was the first stride in stepping into an adventurous future far far away from where I grew up.">
+<meta property="og:image" content="https://kunlei.github.io/blog-cn/img/logo.png" />
+<meta property="og:url" content="https://kunlei.github.io/blog-cn/2019/12/24/review-2019/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="运筹优化" />
+
+  <meta name="twitter:title" content="A Little Something for 2019" />
+  <meta name="twitter:description" content="It&rsquo;s hard to believe that we&rsquo;re reaching the end of 2019 and marching into the last of the first twenty years in the 21st century. The past twenty years witnessed probably the most …">
+  <meta name="twitter:image" content="https://kunlei.github.io/blog-cn/img/logo.png" />
+  <meta name="twitter:card" content="summary" />
+  <link href='https://kunlei.github.io/blog-cn/img/logo.png' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.57.1" />
+  <link rel="alternate" href="https://kunlei.github.io/blog-cn/index.xml" type="application/rss+xml" title="运筹优化"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://kunlei.github.io/blog-cn/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://kunlei.github.io/blog-cn/css/syntax.css" /><link rel="stylesheet" href="https://kunlei.github.io/blog-cn/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="/css/tweaks.css"/>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+    extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-124241468-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://kunlei.github.io/blog-cn">运筹优化</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">博客</a>
+              <div class="navlinks-children">
+                
+                  <a href="/blog-cn/blog-cn/page/book-list">阅读</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">编程</a>
+              <div class="navlinks-children">
+                
+                  <a href="/blog-cn/blog-cn/page/java-index">Java</a>
+                
+                  <a href="/blog-cn/blog-cn/page/cpp-index">C&#43;&#43;</a>
+                
+                  <a href="/blog-cn/blog-cn/page/cplex-index">CPLEX</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">关于</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://kunlei.github.io/pagedown-resume">简历</a>
+                
+                  <a href="/blog-cn/blog-cn/page/about">关于</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="标签" href="/blog-cn/tags">标签</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="English" href="https://kunlei.github.io">English</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="运筹优化" href="https://kunlei.github.io/blog-cn">
+            <img class="avatar-img" src="https://kunlei.github.io/blog-cn/img/logo.png" alt="运筹优化" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>A Little Something for 2019</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on December 24, 2019
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;5&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1029&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Kunlei Lian
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+        <p>It&rsquo;s hard to believe that we&rsquo;re reaching the end of 2019 and marching into the last of the first twenty years in the 21st century.
+The past twenty years witnessed probably the most dramatic changes in my life, although life will surely surprise me more in the future when I least expect it.
+Looking back in time, the twenty years can be roughly divided into four segments.
+The first was mainly high school years when I got the opportunity to study at one of two best high schools in our small county, without knowing at that time that it was the first stride in stepping into an adventurous future far far away from where I grew up.
+I have been wondering how I successfully graduated from that period of my life with no clear goals in mind.
+Everyone was studying hard simply because everyone else was studying hard, pursuing a vague future nobody couldn&rsquo;t imagine.
+So we don&rsquo;t really need to have a crystal clear picture of our future in order to live fully at the moment. Just march on.
+The second five-year period marked my venture into a broader world totally different from my parent&rsquo;s generation.
+It was my college years that brought me to another province where the local dialect sounded foreign to me.
+The people I had opportunity to meet came from diverse backgrounds, all weaved into each other&rsquo;s company for four years by the magic hand of life.
+This year also marked the tenth year after graduation, although I didn&rsquo;t have the opportunity to join the reunion gathering.
+The college years passed with struggle and confusion, and a prolonged graduate study in the same place.
+Little did I know that I would be studying on the other side of the earth in the following and third five-year period.
+With a mediocre Ph.D. life and an extended family, the next five years was a blink.
+One thing I do appreciate is that I acquired the necessary skills to find a job to make ends meet.
+The last five years represented a refresh start as I started my first industry job and had my second kid.
+Life suddenly seems to have revived meaning and a clear goal to live for.
+It&rsquo;s amazing to put twenty years into one paragraph, with individual days negligible to describe.
+However, it&rsquo;s clearer than ever that each moment is better lived wholeheartedly and intentionally.
+After all, life is devoid of meaning without any moment of breathing.</p>
+
+<p>Zooming into 2019, what happened in the beginning of the year seems vague.
+On the work side, I took over a legacy project supporting a core business function of the company.
+It was a simple optimization problem for which a straightforward mathematical model suffices to identify the best solution to meet business needs.
+Unfortunately, I found the legacy code hard to understand and eventually decided to rewrite it in my preferred way, given that fact that I would probably be responsible for its improvement and maintenance in the years to come.
+After all, I believe it would take less time to redo the coding than trying to understand the logic implemented in an entangled way.
+Although the business side was pretty happy with the delivered results, this seemingly innocuous effort backfired in a unexpected way.
+It turns out that people react to the same problem in a vastly different way, simple truth learned in a hard way.
+A phrase summarizes the experience well: &ldquo;from pains we learn values&rdquo;.</p>
+
+<p>The following several months witness my journey of becoming a self-taught, albeit at an amateur level for now, full-stack engineer.
+I was initially tasked with building an optimization engine and ended up creating a full-blown frontend application supported with multiple backend services connected to dedicated database.
+It is like an tour started out shopping for a coffee maker and ended up buying a new house to place hold it.
+I learned quite a bit of html, css, javascript and React framework, which I won&rsquo;t probably use extensively in the foreseeable future.<br />
+It is also a unique experience tapping into something total new and making best use of the limited time to build something usable to make an impact to the physical world.
+The whole process exemplifies the saying that continuous learning is the new theme of modern working environment.</p>
+
+<p>Book reading takes a renewed meaning this year.
+I finished more than 30 books, which really brightened my mind in many different ways.
+Delving into a book is like embarking on a journey to enrich my understanding of myself and the world.
+I had somewhat fixed mental representation of who I am and how the world works before I indulge myself into books this year.
+Too many books I read before are either textbook explaining a theory or application instruction elaborating how to use a specific tool or programming language.
+It was not until this year that I started reading books in other domains, including psychology, economy and investing.
+Sitting down and reading a book has become the best way to relax after a day of hard work and engaging with family.
+For the new year to come, I have already compiled a list of books to read, for which more thought process needs to be given.
+I will think more and write about as I read.</p>
+
+<p>One important learning this year is to live (more) in the present.
+I am a somewhat worrying person, frequently ruminating about things the past and daydreaming into things that could happen in the future.
+One thing I learned from the book <em>A Liberated Mind</em> is that there is really no past or future.
+The past is merely &lsquo;present&rsquo; memory of what have happened, which could have been interpreted differently in different situations, or even in different moods.
+Also there is not really any future, which is nothing but &lsquo;present&rsquo; imagination of what might happen in the days/months/years to come.
+Both of them only live in our current mind.
+Spending time regretting the past or daydreaming the future only gives us another opportunity to miss the most precious &lsquo;present&rsquo;.
+To this, I will strive to live more presently in the year to come.</p>
+
+
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fkunlei.github.io%2fblog-cn%2f2019%2f12%2f24%2freview-2019%2f&amp;text=A%20Little%20Something%20for%202019&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkunlei.github.io%2fblog-cn%2f2019%2f12%2f24%2freview-2019%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fkunlei.github.io%2fblog-cn%2f2019%2f12%2f24%2freview-2019%2f&amp;title=A%20Little%20Something%20for%202019" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkunlei.github.io%2fblog-cn%2f2019%2f12%2f24%2freview-2019%2f&amp;title=A%20Little%20Something%20for%202019" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkunlei.github.io%2fblog-cn%2f2019%2f12%2f24%2freview-2019%2f&amp;title=A%20Little%20Something%20for%202019" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkunlei.github.io%2fblog-cn%2f2019%2f12%2f24%2freview-2019%2f&amp;description=A%20Little%20Something%20for%202019" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://kunlei.github.io/blog-cn/2019/10/26/all-the-wrong-moves/" data-toggle="tooltip" data-placement="top" title="All the Wrong Moves">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://kunlei.github.io/blog-cn/2019/12/26/resolution-2020/" data-toggle="tooltip" data-placement="top" title="New Year Resolution">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://kunlei.github.io/blog-cn/2019/12/24/review-2019">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/kunlei.github.io\/blog-cn\/2019\/12\/24\/review-2019';
+            };
+
+          </script>
+          </div>
+          
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:kunlei1987@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/kunlei" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/kunlei-lian-ba55a73b" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://kunlei.github.io">Kunlei Lian</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://kunlei.github.io/blog-cn">运筹优化</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.57.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://kunlei.github.io/blog-cn/js/main.js"></script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://kunlei.github.io/blog-cn/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'orinaction';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//orinaction.disqus.com/count.js" async></script>
+
+
+<script>
+(function() {
+  var toc = document.getElementById('TableOfContents');
+  if (!toc) return;
+  do {
+    var li, ul = toc.querySelector('ul');
+    if (ul.childElementCount !== 1) break;
+    li = ul.firstElementChild;
+    if (li.tagName !== 'LI') break;
+    
+    ul.outerHTML = li.innerHTML;
+  } while (toc.childElementCount >= 1);
+})();
+</script>
+
+    
+  </body>
+</html>
+
