@@ -1,12 +1,12 @@
 baseurl = "https://kunlei.github.io/blog-cn"
-title = "运筹优化"
+title = "坤雷的博客"
 languageCode = "zh"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsOptions = "linenos=inline"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "zh"
 disqusShortname = "orinaction"
 googleAnalytics = "UA-124241468-1"
 enableEmoji = true

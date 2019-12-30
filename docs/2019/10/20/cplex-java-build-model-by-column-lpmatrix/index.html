@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<html lang="zh" itemscope itemtype="http://schema.org/WebPage">
   <head>
     
 
@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Build Optimization Models by Column with IloLPMatrix using CPLEX Java API - 运筹优化</title>
+  <title>Build Optimization Models by Column with IloLPMatrix using CPLEX Java API - 坤雷的博客</title>
   <meta name="description" content="This post explains how to use IloLPMatrix to build models by column. IloLPMatrix is commonly used in building large-scale optimization models.
 An illustrative example The same example used in a previous post is repeated here for clarity.
 $$ \begin{align} \text{min.} \quad &amp; 2 x_1 &#43; x_2 &#43; 3x_3 &#43; 2x_4 &#43; 5x_5 \newline \text{s.t.} \quad &amp; x_1 &#43; x_3 \geq 2 \newline \quad &amp; x_2 &#43; x_4 &#43; x_5 \geq 3 \newline \quad &amp; x_1 &#43; x_2 &#43; x_4 \geq 1 \newline \quad &amp; 0 \leq x_i \leq 100,\ \forall i \in { 1, \cdots, 5 } \end{align} $$">
@@ -15,7 +15,7 @@ $$ \begin{align} \text{min.} \quad &amp; 2 x_1 &#43; x_2 &#43; 3x_3 &#43; 2x_4 &
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "name": "运筹优化",
+    "name": "坤雷的博客",
     
     "url": "https:\/\/kunlei.github.io\/blog-cn"
 }
@@ -60,7 +60,7 @@ $$ \begin{align} \text{min.} \quad &amp; 2 x_1 &#43; x_2 &#43; 3x_3 &#43; 2x_4 &
   },
   "headline": "Build Optimization Models by Column with IloLPMatrix using CPLEX Java API",
   "description" : "This post explains how to use IloLPMatrix to build models by column. IloLPMatrix is commonly used in building large-scale optimization models.\nAn illustrative example The same example used in a previous post is repeated here for clarity.\n$$ \\begin{align} \\text{min.} \\quad \x26amp; 2 x_1 \x2b x_2 \x2b 3x_3 \x2b 2x_4 \x2b 5x_5 \\newline \\text{s.t.} \\quad \x26amp; x_1 \x2b x_3 \\geq 2 \\newline \\quad \x26amp; x_2 \x2b x_4 \x2b x_5 \\geq 3 \\newline \\quad \x26amp; x_1 \x2b x_2 \x2b x_4 \\geq 1 \\newline \\quad \x26amp; 0 \\leq x_i \\leq 100,\\ \\forall i \\in { 1, \\cdots, 5 } \\end{align} $$",
-  "inLanguage" : "en",
+  "inLanguage" : "zh",
   "wordCount":  382 ,
   "datePublished" : "2019-10-20T00:00:00",
   "dateModified" : "2019-10-20T00:00:00",
@@ -87,7 +87,7 @@ $$ \begin{align} \text{min.} \quad &amp; 2 x_1 &#43; x_2 &#43; 3x_3 &#43; 2x_4 &
 <meta property="og:image" content="https://kunlei.github.io/blog-cn/img/logo.png" />
 <meta property="og:url" content="https://kunlei.github.io/blog-cn/2019/10/20/cplex-java-build-model-by-column-lpmatrix/" />
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="运筹优化" />
+<meta property="og:site_name" content="坤雷的博客" />
 
   <meta name="twitter:title" content="Build Optimization Models by Column with IloLPMatrix using CPLEX Java …" />
   <meta name="twitter:description" content="This post explains how to use IloLPMatrix to build models by column. IloLPMatrix is commonly used in building large-scale optimization models.
@@ -96,7 +96,7 @@ An illustrative example The same example used in a …">
   <meta name="twitter:card" content="summary" />
   <link href='https://kunlei.github.io/blog-cn/img/logo.png' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.57.1" />
-  <link rel="alternate" href="https://kunlei.github.io/blog-cn/index.xml" type="application/rss+xml" title="运筹优化"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="alternate" href="https://kunlei.github.io/blog-cn/index.xml" type="application/rss+xml" title="坤雷的博客"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://kunlei.github.io/blog-cn/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://kunlei.github.io/blog-cn/css/syntax.css" /><link rel="stylesheet" href="https://kunlei.github.io/blog-cn/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
@@ -139,12 +139,12 @@ if (!doNotTrack) {
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="https://kunlei.github.io/blog-cn">运筹优化</a>
+      <a class="navbar-brand" href="https://kunlei.github.io/blog-cn">坤雷的博客</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
@@ -211,8 +211,8 @@ if (!doNotTrack) {
     
       <div class="avatar-container">
         <div class="avatar-img-border">
-          <a title="运筹优化" href="https://kunlei.github.io/blog-cn">
-            <img class="avatar-img" src="https://kunlei.github.io/blog-cn/img/logo.png" alt="运筹优化" />
+          <a title="坤雷的博客" href="https://kunlei.github.io/blog-cn">
+            <img class="avatar-img" src="https://kunlei.github.io/blog-cn/img/logo.png" alt="坤雷的博客" />
           </a>
         </div>
       </div>
@@ -299,13 +299,13 @@ if (!doNotTrack) {
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on October 20, 2019
+  <i class="fas fa-calendar"></i>&nbsp;
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;382&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;382&nbsp;
   
   
     
@@ -482,7 +482,7 @@ Thew new variables are subsequently created based on the resulting IloColumnArra
         
           
           
-          <h4 class="see-also">See also</h4>
+          <h4 class="see-also"></h4>
           <ul>
           
             <li><a href="/blog-cn/2019/10/20/cplex-java-build-model-by-column/">Build Optimization Models by Column using CPLEX Java API</a></li>
@@ -500,12 +500,12 @@ Thew new variables are subsequently created based on the resulting IloColumnArra
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://kunlei.github.io/blog-cn/2019/10/19/cplex-java-build-model-by-row-lpmatrix/" data-toggle="tooltip" data-placement="top" title="Build Optimization Models by Row with IloLPMatrix using CPLEX Java API">&larr; Previous Post</a>
+              <a href="https://kunlei.github.io/blog-cn/2019/10/19/cplex-java-build-model-by-row-lpmatrix/" data-toggle="tooltip" data-placement="top" title="Build Optimization Models by Row with IloLPMatrix using CPLEX Java API">&larr; </a>
             </li>
           
           
             <li class="next">
-              <a href="https://kunlei.github.io/blog-cn/2019/10/20/cplex-java-build-model-by-column/" data-toggle="tooltip" data-placement="top" title="Build Optimization Models by Column using CPLEX Java API">Next Post &rarr;</a>
+              <a href="https://kunlei.github.io/blog-cn/2019/10/20/cplex-java-build-model-by-column/" data-toggle="tooltip" data-placement="top" title="Build Optimization Models by Column using CPLEX Java API"> &rarr;</a>
             </li>
           
         </ul>
@@ -516,7 +516,7 @@ Thew new variables are subsequently created based on the resulting IloColumnArra
         
           
           <div class="disqus-comments">                  
-            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://kunlei.github.io/blog-cn/2019/10/20/cplex-java-build-model-by-column-lpmatrix">comments</span></button>
+            <button id="show-comments" class="btn btn-default" type="button"> <span class="disqus-comment-count" data-disqus-url="https://kunlei.github.io/blog-cn/2019/10/20/cplex-java-build-model-by-column-lpmatrix"></span></button>
             <div id="disqus_thread"></div>
 
             <script type="text/javascript">
@@ -591,12 +591,12 @@ Thew new variables are subsequently created based on the resulting IloColumnArra
 
           
             &nbsp;&bull;&nbsp;
-            <a href="https://kunlei.github.io/blog-cn">运筹优化</a>
+            <a href="https://kunlei.github.io/blog-cn">坤雷的博客</a>
           
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.57.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
           
         </p>
       </div>
