@@ -7,7 +7,7 @@ comments: false
 tags: ["cplex", "java"]
 ---
 
-This is an index page for all CPLEX-related posts.
+所有与CPLEX相关的文章。
 <!-- [By column]({{< ref "">}}) -->
 
 ## CPLEX Java API

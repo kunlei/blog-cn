@@ -7,7 +7,7 @@ comments: false
 tag: "book"
 ---
 
-I am an avid reader and below compiles the books I read or am reading...
+阅读让人平静。
 
 ### 2020
 

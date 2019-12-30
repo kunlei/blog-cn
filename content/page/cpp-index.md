@@ -6,5 +6,4 @@ comments: true
 tag: ["c++"]
 ---
 
-This page lists all the C++-related posts.
-
+所有与C++相关的文章。

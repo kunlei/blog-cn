@@ -7,4 +7,4 @@ comments: true
 tag: ["java"]
 ---
 
-This is an index page for all Java-related posts.
+所有与Java相关的文章。
