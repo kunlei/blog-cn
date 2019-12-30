@@ -11,6 +11,7 @@ disqusShortname = "orinaction"
 googleAnalytics = "UA-124241468-1"
 enableEmoji = true
 mathjax = true
+publishDir = "docs"
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"
