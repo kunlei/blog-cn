@@ -46,20 +46,20 @@ publishDir = "docs"
 
 [[menu.main]]
   identifier = "blog"
-  name = "Blog"
+  name = "博客"
   url = "post"
   weight = 1
 
 [[menu.main]]
   parent="blog"
-  name="Reading"
+  name="阅读"
   url = "/page/book-list"
   weight = 1
 
 # coding
 [[menu.main]]
   identifier = "coding"
-  name = "Coding"
+  name = "编程"
   weight = 3
 
 [[menu.main]]
@@ -84,18 +84,18 @@ publishDir = "docs"
 # about
 [[menu.main]]
   identifier = "about"
-  name = "About"
+  name = "关于"
   weight = 9
 
 [[menu.main]]
   parent = "about"
-  name = "Resume"
-  url = "/pagedown-resume"
+  name = "简历"
+  url = "https://kunlei.github.io/pagedown-resume"
   weight = 1
 
 [[menu.main]]
   parent = "about"
-  name = "About"
+  name = "关于"
   url = "/page/about"
   weight = 2
 
