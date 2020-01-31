@@ -1,4 +1,4 @@
-baseurl = "https://kunlei.github.io"
+baseurl = "https://kunlei.github.io/blog-cn/"
 title = "坤雷的博客"
 languageCode = "zh"
 theme = "beautifulhugo"
