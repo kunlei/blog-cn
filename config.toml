@@ -21,7 +21,7 @@ publishDir = "docs"
   logo = "img/logo.png"
   favicon = "img/logo.png"
   dateFormat = "January 2, 2006"
-  rss = true
+  rss = true 
   comments = true
   readingTime = true
   wordCount = true
@@ -53,7 +53,7 @@ publishDir = "docs"
 [[menu.main]]
   parent="blog"
   name="阅读"
-  url = "/page/book-list"
+  url = "https://kunlei.github.io/blog-cn/page/book-list"
   weight = 1
 
 # coding
@@ -65,19 +65,19 @@ publishDir = "docs"
 [[menu.main]]
   parent = "coding"
   name = "Java"
-  url = "/page/java-index"
+  url = "https://kunlei.github.io/blog-cn/page/java-index"
   weight = 1
 
 [[menu.main]]
   parent = "coding"
   name = "C++"
-  url = "/page/cpp-index"
+  url = "https://kunlei.github.io/blog-cn/page/cpp-index"
   weight = 2
 
 [[menu.main]]
   parent = "coding"
   name = "CPLEX"
-  url = "/page/cplex-index"
+  url = "https://kunlei.github.io/blog-cn/page/cplex-index"
   weight = 3
 
 
@@ -96,7 +96,7 @@ publishDir = "docs"
 [[menu.main]]
   parent = "about"
   name = "关于"
-  url = "/page/about"
+  url = "https://kunlei.github.io/blog-cn/page/about"
   weight = 2
 
 
