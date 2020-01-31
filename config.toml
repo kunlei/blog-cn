@@ -20,7 +20,7 @@ publishDir = "docs"
   subtitle = ""
   logo = "img/logo.png"
   favicon = "img/logo.png"
-  dateFormat = "January 2, 2006"
+  dateFormat = "January 3, 2006"
   rss = true 
   comments = true
   readingTime = true
@@ -32,7 +32,6 @@ publishDir = "docs"
 [Author]
   name = "Kunlei Lian"
   email = "kunlei1987@gmail.com"
-  # facebook = "realjenius"
   github = "kunlei"
   # twitter = "realjenius"
   linkedin = "kunlei-lian-ba55a73b"
@@ -79,7 +78,6 @@ publishDir = "docs"
   name = "CPLEX"
   url = "https://kunlei.github.io/blog-cn/page/cplex-index"
   weight = 3
-
 
 # about
 [[menu.main]]
