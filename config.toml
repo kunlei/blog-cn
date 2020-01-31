@@ -1,4 +1,4 @@
-baseurl = "https://kunlei.github.io/blog-cn"
+baseurl = "https://kunlei.github.io"
 title = "坤雷的博客"
 languageCode = "zh"
 theme = "beautifulhugo"
@@ -12,6 +12,7 @@ googleAnalytics = "UA-124241468-1"
 enableEmoji = true
 mathjax = true
 publishDir = "docs"
+contentdir = "content"
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"
