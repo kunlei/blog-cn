@@ -27,7 +27,7 @@ contentdir = "content"
   readingTime = true
   wordCount = true
   socialShare = true
-  delayDisqus = true
+  delayDisqus = false
   showRelatedPosts = true
 
 [Author]
