@@ -53,8 +53,14 @@ contentdir = "content"
 [[menu.main]]
   parent="blog"
   name="阅读"
-  url = "https://kunlei.github.io/blog-cn/page/book-list"
+  url = "https://kunlei.github.io/blog-cn/page/book-index"
   weight = 1
+
+[[menu.main]]
+  parent="blog"
+  name="博文"
+  url = "https://kunlei.github.io/blog-cn/page/blog-index"
+  weight = 2
 
 # coding
 [[menu.main]]
