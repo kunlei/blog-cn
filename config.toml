@@ -13,6 +13,7 @@ enableEmoji = true
 mathjax = true
 publishDir = "docs"
 contentdir = "content"
+hasCJKLanguage = "true"
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"
@@ -31,7 +32,7 @@ contentdir = "content"
   showRelatedPosts = true
 
 [Author]
-  name = "Kunlei Lian"
+  name = "连坤雷"
   email = "kunlei1987@gmail.com"
   github = "kunlei"
   # twitter = "realjenius"

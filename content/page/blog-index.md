@@ -10,7 +10,8 @@ tag: "blog"
 
 ### 06
 
-+ [口罩与反智]({{< ref "/page/blog/2020/06/wearing-mask.md" >}})
++ [口罩与反智]({{< ref "/page/blog/2020/06/1-wearing-mask.md" >}})
++ [种草]({{< ref "/page/blog/2020/06/2-growing-grass.md" >}})
 
 ### 05
 
