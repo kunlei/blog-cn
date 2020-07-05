@@ -8,6 +8,8 @@ tag: "blog"
 
 ## 2020
 
++ [职业签证禁令]({{< ref "/page/blog/2020/06/6-on-visa-ban.md" >}})
++ [锤子与钉]({{< ref "/page/blog/2020/06/5-hammer-nail.md" >}})
 + [早]({{< ref "/page/blog/2020/06/3-morning-time.md" >}})
 + [种草]({{< ref "/page/blog/2020/06/2-growing-grass.md" >}})
 + [口罩与反智]({{< ref "/page/blog/2020/06/1-wearing-mask.md" >}})
